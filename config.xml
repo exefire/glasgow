@@ -10,7 +10,7 @@
   <name>Glasgow PRO</name>
   <description>Con esta aplicación en 3 pasos se puede evaluar el nivel de conciencia según la escala de Glasgow.</description>
   <author href="https://www.exefire.com" email="egallardo@exefire.com">Exequiel Gallardo</author>
-	<preference name="show-splash-screen-spinner" value="false" />
+
 	<icon src="icon.png" />
 	
 	<icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
@@ -25,5 +25,5 @@
 	<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
 	<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
 	
-	<access origin="*" onlyInBrowser="true" />
+	<access origin="*" onlyInBrowser="false" />
 </widget>
