@@ -25,5 +25,5 @@
 	<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
 	<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
 	
-	<preference name="stay-in-webview" value="true" />
+	<access origin="*" onlyInBrowser="true" />
 </widget>
