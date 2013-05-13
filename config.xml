@@ -6,9 +6,6 @@
         version   = "1.0.2">
   
   <!-- versionCode is optional and Android only -->
-	
-	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
-	<access origin="*" browserOnly="true" />
   
   <name>Glasgow PRO</name>
   <description>Con esta aplicación en 3 pasos se puede evaluar el nivel de conciencia según la escala de Glasgow.</description>
@@ -27,6 +24,12 @@
 	<gap:splash src="splash/ios/Default_iphone5.png" width="640" height="1136" />
 	<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
 	<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+	
+	
+	
+	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	<plugin name="InAppBrowser" value="CDVInAppBrowser" />
+	<access origin="*" browserOnly="true" />
 	
 	
 </widget>
