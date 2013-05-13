@@ -6,6 +6,9 @@
         version   = "1.0.2">
   
   <!-- versionCode is optional and Android only -->
+	
+	<plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
+	<access origin="*" browserOnly="true" />
   
   <name>Glasgow PRO</name>
   <description>Con esta aplicación en 3 pasos se puede evaluar el nivel de conciencia según la escala de Glasgow.</description>
